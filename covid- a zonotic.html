@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+<link href="https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap" rel="stylesheet">
+    <title>Home Page</title>
+    
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Add a gray background color with some padding */
+body {
+  font-family: Arial;
+  padding: 20px;
+  background: #dad739;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  font-size: 50px;
+  text-align: center;
+  background-color: rgba(10, 10, 10, 0.904);
+  font-family: 'Times New Roman', Times, serif;
+
+color: rgb(240, 239, 239);
+
+}
+nav{
+
+background-color: rgba(219, 23, 23, 0.808);
+overflow: hidden;
+}
+nav a{
+
+    font-size: large;
+text-decoration: none;
+padding: 10px;
+padding-left: 100px;
+text-align: center;
+
+float: left;
+color: white;
+}
+a:hover{
+    color: green !important;
+    background-color: transparent;
+}
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: rgb(199, 198, 198);
+  width: 100%;
+  height: 70% !important ;
+  padding: 0px;
+}
+a{
+  text-decoration: none;
+
+}
+a:visited{
+  color: initial;
+}
+nav a:visited{
+  color: white;
+}
+
+
+
+.trd{
+  animation-name: colors;
+  animation-duration: 1.2s;
+  animation-iteration-count: infinite;
+text-align: center;
+background-color: rgb(233, 45, 45);
+color: white;
+font-size: 25px;
+font-family: 'Courier New', Courier, monospace;
+position: relative;
+}
+@keyframes colors{
+  from {
+    top: 10px;
+    border-radius: 0;
+    box-shadow:0 0 5px rgba(0,0,0,1);
+  }
+  to {
+    top: -10px;
+    border-radius: 10px;
+    box-shadow: 0 5px 5px rgba(0,0,0,0.2);
+  }
+}
+
+
+/* Add a card effect for articles */
+.card {
+   background-color: white;
+   padding: 20px;
+   margin-top: 20px;
+   box-shadow: 0.5px 0.5px #aaa;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #333;
+  margin-top: 20px;
+  overflow: hidden;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+
+  }
+  .header{
+    font-size: 30px;
+  }
+  nav a{
+    padding-left: 10px;
+    font-size: small;
+  }
+  .btn{
+    padding: 10px 12px !important;
+    font-size: 10px !important;
+  }
+}
+#sup{
+color: rgb(252, 249, 249);
+background-color: rgba(19, 153, 163, 0.836);
+box-shadow: 1px 1px #aaa;
+}
+input[type="submit"]{
+padding: 4px;
+background-color: rgba(4, 189, 14, 0.719);
+border-radius: 10px;
+border: none;
+width: 30%;
+}
+input[type="submit"]:hover{
+background-color: transparent;
+border: 2px solid green;
+cursor: pointer;}
+.btn {
+  border: 2px solid black;
+  background-color: white;
+  
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.btn {
+  border-color: #2196F3;
+  color: dodgerblue
+}
+
+.btn:hover {
+  background: #2196F3;
+  color: white;
+}
+  
+
+.footer a {
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    float: left;
+    color: white;
+}
+quot{ color:turquoise}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>PAPER GRID</h1>
+  <quot>A Blog by Piyush Dubey</quot>
+</div>
+<nav >
+  <a href="index.html">Home</a>
+  <a href="#">Portfolio</a>
+  <a href="contact.html">Contact</a>
+  <a href="login-form-08/login.html">Login</a>
+  </nav>
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>Covid - A Zonotic Disease</h2>
+      <h5> July 07 , 2021<br><br>Time : 12:17 PM</h5>
+      <div class="fakeimg" style="background-color: transparent;">
+        <img src="banner-5.png" alt="Image" width="100%" height="100%">
+      </div>
+      
+      
+      <p>Is Covid a Zonotic Disease ? <br>
+        CORONA has created a havoc . <br>
+         <BR>
+       <b>What is a Zonotic disease ?</b>
+        <BR>
+        
+<BR> 
+</div>
+    
+  </div>
+
+    <div class="card" id="sup">
+      <h2 style="text-align: center; text-shadow:0.5px 0px rgb(194, 161, 16); ">Become a supporter</h2>
+      <ul>
+        
+        <li><a href="https://www.paytm.com">Donate For Covid</a></li>
+        <li><a href="https://www.blogger.com">Create own blog</a></li>
+      </ul>
+          </div>
+    <div class="card" style="background-color: rgba(54, 25, 218, 0.678);box-shadow: 1px 1px #aaa;overflow: hidden;">
+      <h2 style="color: rgba(255, 255, 240, 0.849);text-shadow: 1px 1px tomato;text-align: center;">Feedback</h2>
+      <textarea name="feed" id="feed" cols="30" rows="8" placeholder="type here..."></textarea>
+      <input type="submit" value="Submit">
+    </div>
+  </div>
+</div>
+<br><br><center>
+<div class="buttons">
+  <button class="btn " style="border-color: #aaa; ">Back</button>
+<button class="btn " style="border-color: #aaa;">1</button>
+<button class="btn "  onclick="window.location.href='page2.html';">2</button>
+<button class="btn ">3</button>
+<button class="btn "  onclick="window.location.href='#';">Next</button>
+
+</center>
+
+</div>
+<div class="footer">
+
+  <a href="contact.html">Contact Us</a>
+  <a href="terms.html">Terms of Use</a>
+  <a href="privacy.html">Privacy Policy</a>
+  
+  <a href="#">&copy; 2021 | PAPER GRID</a>  
+</div>
+
+</body>
+</html>
